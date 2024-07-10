@@ -6,7 +6,7 @@ namespace ConsoleAppProject.App01
     /// The purpose of this app is convert distance.
     /// </summary>
     /// <author>
-    /// Liam Lopez
+    /// Liam Lopez 0.1
     /// </author>
     public class DistanceConverter
     {
@@ -19,29 +19,35 @@ namespace ConsoleAppProject.App01
         /// </summary>
         public void Run()
         {
-            InputMiles();
-            CalculateFeet();
-            OutputFeet();
+
         }
+        
         /// <summary>
         /// Prompt the user to enter the distance in miles
         /// Input the miles as a double number
         /// </summary>
         private void InputMiles()
         {
-            Console.Write("Please enter the number of miles  >   ");
-            string value = Console.ReadLine();
-            miles = Convert.ToDouble(value);
+
         }
-        
+
+        /// <summary>
+        /// 
+        /// </summary>
         private void CalculateFeet()
         {
 
         }
-        
+
+        /// <summary>
+        /// 
+        /// </summary>
+
         private void OutputFeet()
         {
 
         }
+
+     
     }
 }
